@@ -11,3 +11,13 @@
 * {
     box-sizing: border-box;
 }
+
+body {
+    background-color: var(--mint-med);
+    height: 100vh;
+}
+
+.navbar {
+    background-color: var(--walls-bg);
+    height: 20%;
+}

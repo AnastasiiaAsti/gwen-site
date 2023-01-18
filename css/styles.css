@@ -24,6 +24,11 @@ body {
     background-color: var(--walls-bg);
 }
 
+#carouselAutoplaying {
+    /* min-height: 50vh;
+    max-height: 90vh; */
+}
+
 .btn {
     background-color: var(--orange-lite);
     border-radius: 50px;

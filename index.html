@@ -43,42 +43,55 @@
 
     <!-- Carousel with images -->
 
-    <div id="carouselAutoplaying" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="https://images.unsplash.com/photo-1503830232159-4b417691001e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2418&q=80"
-                    class="d-block w-100" alt="...">
+    <div class="container-fluid p-0 mb-5">
+        <div id="carouselAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://images.unsplash.com/photo-1503830232159-4b417691001e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2418&q=80"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/flagged/photo-1585325433954-827bec0aa707?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1638640983932-dea21424691d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1534953196761-569fa264d8f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1524323405946-0f2c1e68f168?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1494132494824-52f8bb6ed376?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                        class="d-block w-100" alt="...">
+                </div>
             </div>
-            <div class="carousel-item">
-                <img src="https://images.unsplash.com/photo-1638640983932-dea21424691d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-                    class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="https://images.unsplash.com/photo-1524323405946-0f2c1e68f168?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-                    class="d-block w-100" alt="...">
-            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
     </div>
 
     <!-- Embedded map -->
 
     <div class="card map-card">
         <div class="card-body">
-            <h5 class="card-title">Find Me</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quis ullam nam
-                exercitationem sed provident.</p>
+            <h5 class="card-title">Located in Santa Monica, CA</h5>
+            <p class="card-text">Click map for directions</p>
         </div>
-        <div class="mapouter m-auto">
+        <div class="mapouter m-auto mb-5">
             <div class="gmap_canvas"><iframe width="600px" height="400px" id="gmap_canvas"
                     src="https://maps.google.com/maps?q=1503%2018th%20St%20Santa%20Monica&t=&z=13&ie=UTF8&iwloc=&output=embed"
                     frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
@@ -92,7 +105,7 @@
 
     <footer class="m-5">
         <h1 class="text-center">SEE YOU SOON</h1>
-        <div class="text-center mt-3"><button class="btn btn-lg p-3">Book your appointment</button></div>
+        <div class="text-center mt-3"><button class="btn btn-lg p-3 mb-5">Book your appointment</button></div>
     </footer>
 
 

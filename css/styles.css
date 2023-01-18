@@ -46,3 +46,7 @@ body {
     background-color: var(--mint-dark);
     color: var(--mint-lite);
 }
+
+.service-card {
+    min-height: 820px;
+}

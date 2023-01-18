@@ -35,3 +35,8 @@ body {
 .navbar-brand {
     font-weight: bold;
 }
+
+.map-card {
+    background-color: var(--mint-dark);
+    color: var(--mint-lite);
+}

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&display=swap');
+
 :root {
     --orange-lite: rgba(228, 162, 99);
     --orange-dark: rgba(167, 88, 32);
@@ -10,6 +12,7 @@
 
 * {
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -21,3 +24,4 @@ body {
     background-color: var(--walls-bg);
 
 }
+

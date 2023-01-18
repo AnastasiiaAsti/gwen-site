@@ -26,6 +26,7 @@ body {
 
 .btn {
     background-color: var(--orange-lite);
+    border-radius: 50px;
 }
 
 .btn:hover {

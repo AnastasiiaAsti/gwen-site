@@ -50,3 +50,7 @@ body {
 .service-card {
     background-color: var(--walls-bg);
 }
+
+.service-card img {
+    height: 75%;
+}

@@ -18,6 +18,7 @@
 body {
     background-color: var(--mint-med);
     height: 100vh;
+    margin: 0;
 }
 
 h5 {
@@ -61,8 +62,9 @@ a {
 
 .service-card {
     background-color: var(--walls-bg);
+    border: 5px solid var(--orange-lite);
 }
 
 .service-card img {
-    height: 75%;
+    height: 90%;
 }
